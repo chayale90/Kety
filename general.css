@@ -1,0 +1,23 @@
+.fs14 {
+    font-size: 14px;
+}
+
+#btn-contact {
+    width: 178px;
+    color: #FFFFFF;
+    background: #109BB4;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 35px;
+    z-index: 2;
+}
+
+
+#btn-contact:hover {
+    background: #FFFFFF;
+    color: #109BB4;
+    border: #109BB4 1px solid;
+}
+
+

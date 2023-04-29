@@ -1,0 +1,481 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 299px;
+}
+
+header .container,
+header .d-flex {
+    min-height: inherit;
+}
+
+
+header .name {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+header .details {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header .btn-header {
+    border: 1px solid #109BB4;
+    border-radius: 20px;
+    padding: 4px 25px;
+    color: rgba(16, 155, 180, 1);
+    margin-top: 17px;
+}
+
+header .btns-header {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px 19px;
+}
+
+header .btn-tel a {
+    text-decoration: none;
+    color: #212529;
+}
+
+
+
+header .btn-location,
+header .iconPhone,
+header .iconLocation {
+    margin-right: 14px;
+}
+
+header .d-flex .btn-location:hover {
+    background: #FFFFFF;
+    cursor: auto;
+}
+
+
+header a {
+    text-decoration: none;
+}
+
+
+header .container .odot button:hover {
+    color: black
+}
+
+
+
+.strip .blue {
+    color: rgba(120, 214, 199, 1);
+}
+
+
+.strip .title {
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.strip .moto {
+    width: 470px;
+    padding: 50px 0 0 0;
+}
+
+/* יצירת קשר-כפתור  */
+.outer {
+    position: relative;
+}
+
+#doctors {
+    position: absolute;
+    top: 186px;
+    left: 143px;
+    border-radius: 6px;
+    /* max-width: 100%; */
+}
+
+#doctors-img {
+    width: 573px;
+}
+
+
+
+/* main */
+main {
+    margin-top: 250px;
+    margin-bottom: 132px;
+    min-height: 299px;
+    z-index: 999;
+}
+
+main .container {
+    width: 600px;
+}
+
+main .row .div {
+    height: 143px;
+    width: 143px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+main .row .div .icon {
+    margin-top: 12px;
+}
+
+main .row .div1 {
+    background: linear-gradient(255.26deg, #CAEFF6 -71.43%, rgba(245, 247, 250, 0) 146.38%);
+}
+
+main .row .div2 {
+    background: linear-gradient(13.49deg, #CCEFF6 -33.86%, rgba(245, 247, 250, 0) 119.48%);
+}
+
+main .row .div3 {
+    background: linear-gradient(272.81deg, #CCEFF6 -60.59%, rgba(245, 247, 250, 0) 129.19%);
+}
+
+main .row .div4 {
+    background: linear-gradient(218.34deg, #CCEFF6 -25.08%, rgba(245, 247, 250, 0) 103.81%);
+}
+
+main .row .div5 {
+    background: linear-gradient(181.76deg, #CAEFF6 -61.75%, rgba(245, 247, 250, 0) 88.09%);
+}
+
+main .row .div6 {
+    background: linear-gradient(128.73deg, #D8F2F8 -23.73%, rgba(245, 247, 250, 0) 103.78%);
+}
+
+main .background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+section {
+    min-height: 450px;
+}
+
+section .container {
+    width: 900px;
+}
+
+section .clients {
+    font-size: 25px;
+    /* margin-right: 100px;
+    margin-bottom: 50px; */
+}
+
+section .card {
+    width: 250px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 18px;
+    min-height: 550px;
+
+}
+
+section .card .quote {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    font-family: 'David Libre', serif;
+}
+
+section .card .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    text-align: right;
+}
+
+
+.swiper-pagination-bullet {
+    height: 7px;
+    width: 36px;
+    border-radius: 25px;
+    background: #109BB4;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #109BB4;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: #109BB4;
+    opacity: 1;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 50px;
+}
+
+section .row {
+    margin-bottom: 54px;
+}
+
+/* article */
+article {
+    margin-top: 146px;
+    min-height: 400px;
+}
+
+
+article .box1 {
+    max-width: 936px;
+    background: rgba(216, 242, 248, 0.38);
+    border-radius: 6px;
+    padding: 19px 71px 19px 0;
+}
+
+article .box1 h3 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+article .box1 .items,
+article .box2 .items {
+    font-size: 28px;
+}
+
+article .icons {
+    margin-left: 29px;
+}
+
+.backgroundSmartPhone1 {
+    position: absolute;
+    left: 0;
+    bottom: 420px;
+    z-index: -1;
+}
+
+article .box2 {
+    max-width: 936px;
+    margin-top: 39px;
+    background: rgba(120, 214, 199, 0.16);
+    border-radius: 6px;
+    padding: 19px 71px 19px 0;
+    margin-bottom: 150px;
+}
+
+/* aside */
+aside .aboutDiv img {
+    border-radius: 6px;
+}
+
+aside .aboutDiv {
+    /* border: #b2dde3 solid 1px; */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 41px 63px 71px 46px;
+}
+
+aside .aboutDiv .text {
+    max-width: 547px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+aside .aboutDiv .text p {
+    margin-bottom: 10px;
+}
+
+#my_btn {
+    border-radius: 50%;
+    padding-top:  8px  ;
+    padding-bottom:  8px  ;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    min-height: 300px;
+    margin-top: 80px;
+}
+
+
+footer .container button {
+    border-radius: 50%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+footer .row .btn-phone:hover {
+    border: solid 1px rgb(216, 242, 248);
+}
+
+
+footer .backgroundSmartPhone2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* iconWhatsapp */
+.iconWhatsapp{
+    position: fixed;
+   z-index: 99999;
+   bottom: 40px;
+   right: 20px;
+}
+
+@media (max-width:1199px) {
+    .strip .moto {
+        width: 100%;
+        padding: 50px 0 15px 0;
+    }
+
+    #doctors {
+        position: absolute;
+        top: 150px;
+        left: 143px;
+    }
+
+    #doctors-img {
+        width: 300px;
+    }
+
+    main {
+        margin-top: 93px;
+    }
+
+    section .card {
+        width: 100%;
+        min-height: 480px;
+    }
+
+    aside .aboutDiv {
+        padding: 48px 18px 18px 18px;
+    }
+
+}
+
+
+
+@media (max-width:768px) {
+    header {
+        background-position: right;
+        min-height: 163px;
+    }
+
+    header .btn-location {
+        margin-right: 22px;
+        padding: 8px 32px;
+    }
+
+    header .iconLocation {
+        margin-right: 5px;
+    }
+
+    header .btn-tel {
+        padding: 8px 16px;
+    }
+
+    .strip .moto {
+        width: 100%;
+        padding: 50px 0 15px 0;
+    }
+
+    #doctors {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    #doctors-img {
+        width: 100%;
+    }
+
+    main {
+        margin-top: 71px;
+        margin-bottom: 67px;
+        background: #FFFFFF;
+    }
+
+    main .container {
+        width: 100%;
+    }
+
+    section .card {
+        width: 100%;
+        min-height: 402px;
+    }
+
+    section .container {
+        width: auto;
+        margin: 0 10px;
+    }
+
+    /* swiper */
+    section .swiper-slide:first-child {
+        transition: transform 100ms;
+    }
+
+    section .swiper-slide:nth-child(2) {
+        transition: transform 100ms;
+    }
+
+    section .swiper[dir="rtl"] .swiper-slide.swiper-slide-active:first-child {
+        transform: translateX(-50%);
+    }
+
+    section .swiper[dir="rtl"] .swiper-slide.swiper-slide-next:nth-child(2) {
+        transform: translateX(-55%);
+    }
+
+    article .box1,
+    article .box2 {
+        background: #ffffff00;
+        padding: 0 10px;
+    }
+
+    article .box1 h3,
+    article .box2 h3 {
+        font-size: 22px;
+    }
+
+    article .box1 .items,
+    article .box2 .items {
+        font-size: 24px;
+    }
+
+    aside .aboutDiv {
+        padding: 48px 10px 18px 10px;
+    }
+
+    aside .aboutDiv img {
+        width: 107px;
+        /* height: 109px; */
+        border-radius: 6px;
+        /* object-fit: cover; */
+    }
+
+    article .box2 {
+        margin-bottom: 45px;
+    }
+   
+}
