@@ -196,7 +196,7 @@ section .card .quote {
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
-    font-family: 'David Libre', serif;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 section .card .description {
@@ -422,7 +422,7 @@ footer .backgroundSmartPhone2 {
 
     section .card {
         width: 100%;
-        min-height: 402px;
+        min-height: 462px;
     }
 
     section .container {
