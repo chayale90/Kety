@@ -52,7 +52,6 @@ header .btn-tel a {
 }
 
 
-
 header .btn-location,
 header .iconPhone,
 header .iconLocation {
@@ -281,6 +280,60 @@ article .box2 {
     margin-bottom: 150px;
 }
 
+/* videos */
+.videos {
+    /* background: #e5f9fd; */
+    background: -moz-linear-gradient(top, #FFFFFF 0%, #CAEFF6 50%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 0%, #CAEFF6 50%, #FFFFFF 100%);
+    background: linear-gradient(to bottom, #FFFFFF 0%, #CAEFF6 50%, #FFFFFF 100%);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    margin-bottom: 140px;
+}
+
+.videos .container {
+    min-height: inherit;
+    text-shadow: 0px -3px 8px rgba(16, 155, 180, 0.22);
+}
+
+.videos .container .roww {
+    grid-gap: 20px;
+}
+
+.videos .container .video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.videos .container iframe {
+    border-radius: 10px;
+}
+
+.movies-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.movies-btns .btn-spotify {
+    border-radius: 50px;
+    padding: 8px 16px;
+    transition: transform 0.2 ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: #109BB4 1px dashed;
+}
+
+.movies-btns .btn-spotify:hover {
+    border: #109BB4 1px solid;
+}
+
+.movies-btns .btn-spotify:active {
+    transform: scale(0.96);
+}
+
+
 /* aside */
 aside .aboutDiv img {
     border-radius: 6px;
@@ -303,10 +356,10 @@ aside .aboutDiv .text p {
     margin-bottom: 10px;
 }
 
-#my_btn {
+.more_btn{
     border-radius: 50%;
-    padding-top:  8px  ;
-    padding-bottom:  8px  ;
+    padding-top: 8px;
+    padding-bottom: 8px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -336,11 +389,11 @@ footer .backgroundSmartPhone2 {
 }
 
 /* iconWhatsapp */
-.iconWhatsapp{
+.iconWhatsapp {
     position: fixed;
-   z-index: 99999;
-   bottom: 40px;
-   right: 20px;
+    z-index: 99999;
+    bottom: 40px;
+    right: 20px;
 }
 
 @media (max-width:1199px) {
@@ -475,7 +528,7 @@ footer .backgroundSmartPhone2 {
     }
 
     article .box2 {
-        margin-bottom: 45px;
+        margin-bottom: 60px;
     }
-   
+
 }
