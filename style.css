@@ -322,11 +322,11 @@ article .box2 {
     padding: 8px 20px;
     transition: transform 0.2 ease;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border: #109BB4 1px dashed;
+    border: #109BB4 1px solid;
 }
 
 .movies-btns .btn-spotify:hover {
-    border: #109BB4 1px solid;
+    border: #109BB4 1px dashed;
 }
 
 .movies-btns .btn-spotify:active {
