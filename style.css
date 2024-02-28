@@ -325,10 +325,6 @@ article .box2 {
     border: #109BB4 1px solid;
 }
 
-.movies-btns .btn-spotify:hover {
-    border: #109BB4 1px dashed;
-}
-
 .movies-btns .btn-spotify:active {
     transform: scale(0.96);
 }
