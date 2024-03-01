@@ -39,7 +39,7 @@ function declareEvents() {
     })
 }
 
-function clickBtnMore (){
+function clickBtnMore() {
     let my_btn_more = document.querySelector("#my_btn_more");
     let div = document.createElement("div");
     // p.className = "lead";
@@ -65,13 +65,20 @@ function clickBtnMore (){
             </div>
         </div>
         <div class="roww video d-flex justify-content-center">
-            <iframe width="500" height="255" src="https://www.youtube.com/embed/WneUWG8DlWk?si=9LSDIbrh1F0psm1M"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen>
+        <div class="video">
+             <iframe width="500" height="255" src="https://www.youtube.com/embed/WneUWG8DlWk?si=9LSDIbrh1F0psm1M"
+             title="YouTube video player" frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+             allowfullscreen>
             </iframe>
+        </div>
+        <div class="video">
+        <iframe width="500" height="255" src="https://www.youtube.com/embed/kjIEnCWnutE?si=Jmn4-qN-M3Lv9GxZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+    </div>
+            
         </div>`
-        my_btn_more.innerHTML = ` 
+            my_btn_more.innerHTML = ` 
             <i class="fa fa-chevron-up" aria-hidden="true"></i>`
             // my_btn.style.background = ""
 

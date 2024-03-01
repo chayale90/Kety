@@ -113,7 +113,7 @@ header .container .odot button:hover {
 /* main */
 main {
     margin-top: 250px;
-    margin-bottom: 132px;
+    margin-bottom: 80px;
     min-height: 299px;
     z-index: 999;
 }
@@ -294,7 +294,7 @@ article .box2 {
 
 .videos .container {
     min-height: inherit;
-    text-shadow: 0px -3px 8px rgba(16, 155, 180, 0.22);
+    /* text-shadow: 0px -3px 8px rgba(16, 155, 180, 0.22); */
 }
 
 .videos .container .roww {
@@ -410,6 +410,7 @@ footer .backgroundSmartPhone2 {
 
     main {
         margin-top: 93px;
+        margin-bottom: 50px;
     }
 
     section .card {
