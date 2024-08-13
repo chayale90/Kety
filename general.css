@@ -1,11 +1,14 @@
 .fs14 {
     font-size: 14px;
 }
+.purple {
+   color: var(--main-purple);
+}
 
 #btn-contact {
     width: 178px;
     color: #FFFFFF;
-    background: #109BB4;
+    background: var(--main-purple);
     border-radius: 40px;
     font-weight: 700;
     font-size: 18px;
@@ -16,6 +19,6 @@
 
 #btn-contact:hover {
     background: #FFFFFF;
-    color: #109BB4;
-    border: #109BB4 1px solid;
+    color: var(--main-purple);
+    border: var(--main-purple) 1px solid;
 }

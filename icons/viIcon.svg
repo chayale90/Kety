@@ -1,4 +1,6 @@
-<svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16.0001 27.6196C23.3334 27.6196 29.3334 22.0966 29.3334 15.3461C29.3334 8.59571 23.3334 3.07263 16.0001 3.07263C8.66675 3.07263 2.66675 8.59571 2.66675 15.3461C2.66675 22.0966 8.66675 27.6196 16.0001 27.6196Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.3333 15.3461L14.1066 18.8195L21.6666 11.8727" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="48" height="44" viewBox="0 0 48 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Iconsax/Linear/tickcircle">
+<path id="Vector" d="M24.0578 39.7563C34.8551 39.7563 43.6893 31.6244 43.6893 21.6853C43.6893 11.7462 34.8551 3.61426 24.0578 3.61426C13.2604 3.61426 4.42627 11.7462 4.42627 21.6853C4.42627 31.6244 13.2604 39.7563 24.0578 39.7563Z" stroke="#B174CB" stroke-width="2.20854" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M15.7144 21.6854L21.2701 26.7995L32.4011 16.5713" stroke="#B174CB" stroke-width="2.20854" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 </svg>

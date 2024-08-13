@@ -2,11 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Heebo';
 }
 
 body {
     overflow-x: hidden;
+}
+
+:root {
+    --main-purple: #B174CB;
+    /* Moved the variable inside :root for better practice */
 }
 
 header {
@@ -33,7 +38,7 @@ header .details {
 }
 
 header .btn-header {
-    border: 1px solid #109BB4;
+    border: 1px solid var(--main-purple);
     border-radius: 20px;
     padding: 4px 25px;
     color: rgba(16, 155, 180, 1);
@@ -68,12 +73,24 @@ header a {
     text-decoration: none;
 }
 
-
-header .container .odot button:hover {
-    color: black
+header .container .odot button {
+    color: #fff;
+    border-radius: 20px;
+    border: 1px #FFF solid;
+    padding: 3px 40px;
 }
 
+header .container .odot button:hover {
+    color: #fff;
+    border-radius: 20px;
+    border: 1px var(--main-purple) solid;
+    padding: 3px 40px;
+}
 
+header .text-header{
+   width: 386px;
+    color: #fff;
+}
 
 .strip .blue {
     color: rgba(120, 214, 199, 1);
@@ -99,13 +116,13 @@ header .container .odot button:hover {
 #doctors {
     position: absolute;
     top: 186px;
-    left: 143px;
+    left: 250px;
     border-radius: 6px;
     /* max-width: 100%; */
 }
 
 #doctors-img {
-    width: 573px;
+    width: 373px;
 }
 
 
@@ -138,27 +155,27 @@ main .row .div .icon {
 }
 
 main .row .div1 {
-    background: linear-gradient(255.26deg, #CAEFF6 -71.43%, rgba(245, 247, 250, 0) 146.38%);
+    background: linear-gradient(255.26deg, #B174CB -71.43%, rgba(245, 247, 250, 0) 146.38%);
 }
 
 main .row .div2 {
-    background: linear-gradient(13.49deg, #CCEFF6 -33.86%, rgba(245, 247, 250, 0) 119.48%);
+    background: linear-gradient(13.49deg, #B174CB -33.86%, rgba(245, 247, 250, 0) 119.48%);
 }
 
 main .row .div3 {
-    background: linear-gradient(272.81deg, #CCEFF6 -60.59%, rgba(245, 247, 250, 0) 129.19%);
+    background: linear-gradient(272.81deg, #B174CB -60.59%, rgba(245, 247, 250, 0) 129.19%);
 }
 
 main .row .div4 {
-    background: linear-gradient(218.34deg, #CCEFF6 -25.08%, rgba(245, 247, 250, 0) 103.81%);
+    background: linear-gradient(218.34deg, #B174CB -25.08%, rgba(245, 247, 250, 0) 103.81%);
 }
 
 main .row .div5 {
-    background: linear-gradient(181.76deg, #CAEFF6 -61.75%, rgba(245, 247, 250, 0) 88.09%);
+    background: linear-gradient(181.76deg, #B174CB -61.75%, rgba(245, 247, 250, 0) 88.09%);
 }
 
 main .row .div6 {
-    background: linear-gradient(128.73deg, #D8F2F8 -23.73%, rgba(245, 247, 250, 0) 103.78%);
+    background: linear-gradient(128.73deg, #B174CB -23.73%, rgba(245, 247, 250, 0) 103.78%);
 }
 
 main .background {
@@ -211,19 +228,19 @@ section .card .description {
     height: 7px;
     width: 36px;
     border-radius: 25px;
-    background: #109BB4;
+    background: var(--main-purple);
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #109BB4;
+    color: var(--main-purple);
     opacity: 0.7;
     transition: all 0.3s ease;
 }
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
-    color: #109BB4;
+    color: var(--main-purple);
     opacity: 1;
 }
 
@@ -238,8 +255,8 @@ section .row {
 
 /* article */
 article {
-    margin-top: 146px;
-    min-height: 400px;
+    margin-top: 66px;
+    min-height: 200px;
 }
 
 
@@ -273,11 +290,10 @@ article .icons {
 
 article .box2 {
     max-width: 936px;
-    margin-top: 39px;
-    background: rgba(120, 214, 199, 0.16);
+    /* margin-top: 39px; */
     border-radius: 6px;
     padding: 19px 71px 19px 0;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 /* videos */
@@ -322,7 +338,7 @@ article .box2 {
     padding: 8px 20px;
     transition: transform 0.2 ease;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    border: #109BB4 1px solid;
+    border: var(--main-purple) 1px solid;
 }
 
 .movies-btns .btn-spotify:active {
@@ -352,7 +368,7 @@ aside .aboutDiv .text p {
     margin-bottom: 10px;
 }
 
-.more_btn{
+.more_btn {
     border-radius: 50%;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -393,6 +409,11 @@ footer .backgroundSmartPhone2 {
 }
 
 @media (max-width:1199px) {
+    header .text-header{
+        width: 320px;
+         color: #fff;
+     }
+
     .strip .moto {
         width: 100%;
         padding: 50px 0 15px 0;
@@ -405,7 +426,7 @@ footer .backgroundSmartPhone2 {
     }
 
     #doctors-img {
-        width: 300px;
+        width: 200px;
     }
 
     main {
@@ -499,7 +520,6 @@ footer .backgroundSmartPhone2 {
 
     article .box1,
     article .box2 {
-        background: #ffffff00;
         padding: 0 10px;
     }
 
