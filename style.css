@@ -212,6 +212,7 @@ section .card .quote {
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
+    color: var(--main-purple);
     font-family: 'Noto Sans JP', sans-serif;
 }
 
