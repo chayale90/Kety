@@ -18,7 +18,7 @@ header {
     background-image: url(images/background.png);
     background-position: center;
     background-size: cover;
-    min-height:330px;
+    min-height: 290px;
 }
 
 header .container,
@@ -87,8 +87,8 @@ header .container .odot button:hover {
     padding: 3px 40px;
 }
 
-header .text-header{
-   width: 386px;
+header .text-header {
+    width: 386px;
     color: #fff;
 }
 
@@ -129,7 +129,7 @@ header .text-header{
 
 /* main */
 main {
-    margin-top: 250px;
+    margin-top: 330px;
     margin-bottom: 80px;
     min-height: 299px;
     z-index: 999;
@@ -410,10 +410,10 @@ footer .backgroundSmartPhone2 {
 }
 
 @media (max-width:1199px) {
-    header .text-header{
+    header .text-header {
         width: 320px;
-         color: #fff;
-     }
+        color: #fff;
+    }
 
     .strip .moto {
         width: 100%;
